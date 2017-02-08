@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.13" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="code.core.java.pattern.factory.sample01.AnimalFacotry" 
+    project="CoreJavaPatternSample" 
+    file="/CoreJavaPatternSample/src/main/java/code/core/java/pattern/factory/sample01/AnimalFacotry.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="180" x="164" y="106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="code.core.java.pattern.factory.sample01.Dog" project="CoreJavaPatternSample" 
+    file="/CoreJavaPatternSample/src/main/java/code/core/java/pattern/factory/sample01/Dog.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="180" x="384" y="106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="code.core.java.pattern.factory.sample01.Animal" 
+    project="CoreJavaPatternSample" 
+    file="/CoreJavaPatternSample/src/main/java/code/core/java/pattern/factory/sample01/Animal.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="180" x="604" y="245"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="code.core.java.pattern.factory.sample01.Lion" project="CoreJavaPatternSample" 
+    file="/CoreJavaPatternSample/src/main/java/code/core/java/pattern/factory/sample01/Lion.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="180" x="604" y="106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="code.core.java.pattern.factory.sample01.TestFactory" 
+    project="CoreJavaPatternSample" 
+    file="/CoreJavaPatternSample/src/main/java/code/core/java/pattern/factory/sample01/TestFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="180" x="1044" y="106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="code.core.java.pattern.factory.sample01.Rabbit" project="CoreJavaPatternSample" 
+    file="/CoreJavaPatternSample/src/main/java/code/core/java/pattern/factory/sample01/Rabbit.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="180" x="824" y="106"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="9">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

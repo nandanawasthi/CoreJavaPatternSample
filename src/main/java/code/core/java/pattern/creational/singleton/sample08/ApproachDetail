@@ -1,0 +1,4 @@
+The problem with above serialized singleton class is that whenever we deserialize it, 
+it will create a new instance of the class. Let’s see it with a simple program.
+
+http://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples#eager-initializationit 	
