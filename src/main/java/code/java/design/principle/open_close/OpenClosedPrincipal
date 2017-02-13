@@ -1,0 +1,3 @@
+Behavioral Type Strategy pattern's sample 01 is sample of open closed and single responsibility
+Where fly behavior defined it has only one responsibility
+Different strategy is open for extension but closed for extension

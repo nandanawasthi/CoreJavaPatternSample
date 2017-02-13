@@ -1,0 +1,26 @@
+package code.java.design.pattern.creational.abstractFactory;
+
+public class ColorFactory extends AbstractFactory {
+
+	@Override
+	public Shape getShape(String shapeType) {
+		return null;
+	}
+
+	@Override
+	Color getColor(String color) {
+
+		if (color == null) {
+			return null;
+		}
+
+		if (color.equalsIgnoreCase("GREEN")) {
+			return new Green();
+
+		} else if (color.equalsIgnoreCase("BLUE")) {
+			return new Blue();
+		}
+
+		return null;
+	}
+}
